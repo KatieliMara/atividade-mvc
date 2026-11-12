@@ -11,7 +11,8 @@ class EntregaController extends Controller
         $entregas = [
             ['destinatario' => 'Katieli Mara', 'cidade' => 'São José dos Campos'],
             [ 'destinatario' => 'Benedita Maria','cidade' => 'Lorena'],
-            ['destinatario' => 'Ana Luiza','cidade' => 'Guaratinguetá']
+            ['destinatario' => 'Ana Luiza','cidade' => 'Guaratinguetá'],
+            ['destinatario' => 'Natalia','cidade' => 'Minas'],
         ];
      return view('entregas', ['entregas' => $entregas]);
     }
